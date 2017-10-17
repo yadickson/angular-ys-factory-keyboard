@@ -20,18 +20,14 @@
       isCtrlC: isCtrlC,
       isCtrlX: isCtrlX,
       isCtrlV: isCtrlV,
-      isCtrlKeys: isCtrlKeys,
       isNavegationKey: isNavegationKey,
       isClearKey: isClearKey,
       isDotKey: isDotKey,
-      isSeparator: isSeparator,
-      isNumericKey: isNumericKey,
-      isOnlyNumber: isOnlyNumber,
-      isDecimalNumber: isDecimalNumber
+      isNumericKey: isNumericKey
     };
 
     function getKeyCode(e) {
-      return e.which || e.charCode || e.keyCode;
+      return e.which || e.charCode || e.keyCode || null;
     }
 
     function getStringCode(e) {
@@ -66,10 +62,6 @@
       return key || code;
     }
 
-    function isCtrlKeys(e) {
-      return isCtrlA(e) || isCtrlC(e) || isCtrlX(e) || isCtrlV(e);
-    }
-
     function isNavegationKey(e) {
       var ctrl = getKeyCode(e);
       var code = ($.inArray(ctrl, [37, 39, 40, 38, 9]) !== -1);
@@ -91,26 +83,11 @@
       return key || code;
     }
 
-    function isSeparator(e) {
-      var ctrl = getKeyCode(e);
-      var code = ($.inArray(ctrl, [109, 189]) !== -1);
-      var key = (e.key === "-");
-      return key || code;
-    }
-
     function isNumericKey(e) {
       var ctrl = getKeyCode(e);
       var code = ((ctrl >= 48 && ctrl <= 57) || (ctrl >= 96 && ctrl <= 105));
       var key = ($.inArray(e.key, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']) !== -1);
       return key || code;
-    }
-
-    function isOnlyNumber(e) {
-      return isNumericKey(e) || isNavegationKey(e) || isClearKey(e);
-    }
-
-    function isDecimalNumber(e) {
-      return isOnlyNumber(e) || isDotKey(e);
     }
 
   }
