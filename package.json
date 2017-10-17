@@ -23,6 +23,7 @@
     "should": "^13.1.2"
   },
   "scripts": {
+    "pretest": "bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS"
   },
   "repository": {
