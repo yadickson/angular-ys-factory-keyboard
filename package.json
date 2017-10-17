@@ -9,6 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "angular-mocks": "^1.6.6",
+    "bower": "^1.8.2",
     "chai": "^4.1.2",
     "karma": "^1.7.1",
     "karma-bro": "^0.11.1",
@@ -23,7 +24,7 @@
     "should": "^13.1.2"
   },
   "scripts": {
-    "pretest": "bower install",
+    "pretest": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS"
   },
   "repository": {

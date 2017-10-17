@@ -30,7 +30,7 @@ $ bower install --save-dev angular-mocks@~1.3.20
 ### Install unit test/coverage tools
 
 ```
-$ npm install --save-dev karma chai mocha
+$ npm install --save-dev bower karma chai mocha
 $ npm install --save-dev karma-chai karma-bro karma-mocha karma-phantomjs-launcher
 $ npm install --save-dev karma-coverage
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
@@ -42,10 +42,10 @@ $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
 $ bower install && npm install
 ```
 
-### Package
+### Register (previusly make a git tag version)
 
 ```
-$ bower pack
+$ bower register
 ```
 
 [travis-image]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard.svg?branch=master
