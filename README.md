@@ -1,2 +1,2 @@
-# angular-ys-service-keyboard
+# angular-ys-factory-keyboard
 Angular service to check keyboard event press button
