@@ -66,6 +66,6 @@ $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angula
 [appveyor-image]: https://img.shields.io/appveyor/ci/yadickson/angular-ys-factory-keyboard.svg?label=appveyor
 [appveyor-url]: https://ci.appveyor.com/project/yadickson/angular-ys-factory-keyboard
 
-[coveralls-image]: https://coveralls.io/repos/yadickson/angular-ys-factory-keyboard.svg/badge.svg?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-factory-keyboard/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-factory-keyboard
 
