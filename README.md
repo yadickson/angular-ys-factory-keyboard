@@ -1,8 +1,6 @@
 # angular-ys-factory-keyboard
 
 [![TravisCI Status][travis-image]][travis-url]
-[![CircleCI Status][circle-image]][circle-url]
-[![AppVeyor Status][appveyor-image]][appveyor-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 
 Angular factory to check keyboard event press button
@@ -59,12 +57,6 @@ $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angula
 
 [travis-image]: https://img.shields.io/travis/yadickson/angular-ys-factory-keyboard.svg?label=travisci
 [travis-url]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard
-
-[circle-image]: https://circleci.com/gh/yadickson/angular-ys-factory-keyboard.svg?style=shield&circle-token=:circle-token
-[circle-url]: https://circleci.com/gh/yadickson/angular-ys-factory-keyboard
-
-[appveyor-image]: https://img.shields.io/appveyor/ci/yadickson/angular-ys-factory-keyboard.svg?label=appveyor
-[appveyor-url]: https://ci.appveyor.com/project/yadickson/angular-ys-factory-keyboard
 
 [coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-factory-keyboard/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-factory-keyboard
