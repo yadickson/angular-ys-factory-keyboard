@@ -56,10 +56,10 @@ $ npm test
 $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angular-ys-factory-keyboard.git
 ```
 
-[travis-image]: https://img.shields.io/travis/yadickson/angular-ys-factory-keyboard.svg?label=travis-ci
+[travis-image]: https://img.shields.io/travis/yadickson/angular-ys-factory-keyboard.svg?label=travisci
 [travis-url]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard
 
-[circle-image]: https://img.shields.io/circleci/project/github/yadickson/angular-ys-factory-keyboard.svg?label=circle-ci
+[circle-image]: https://circleci.com/gh/yadickson/angular-ys-factory-keyboard.svg?style=shield&circle-token=:circle-token
 [circle-url]: https://circleci.com/gh/yadickson/angular-ys-factory-keyboard
 
 [appveyor-image]: https://img.shields.io/appveyor/ci/yadickson/angular-ys-factory-keyboard.svg?label=appveyor
