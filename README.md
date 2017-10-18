@@ -16,7 +16,6 @@ $ npm init
 ```
 $ bower install --save jquery@~1.12.0
 $ bower install --save angular@~1.3.20
-$ bower install --save angular-ui-router@~0.2.0
 ```
 
 ### Install develop dependencies
@@ -30,7 +29,8 @@ $ bower install --save-dev angular-mocks@~1.3.20
 ### Install unit test/coverage tools
 
 ```
-$ npm install --save-dev bower karma chai mocha
+$ npm install --save-dev bower
+$ npm install --save-dev karma chai mocha
 $ npm install --save-dev karma-chai karma-bro karma-mocha karma-phantomjs-launcher
 $ npm install --save-dev karma-coverage
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
@@ -42,11 +42,17 @@ $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
 $ bower install && npm install
 ```
 
+### Test application
+
+```
+$ npm test
+```
+
 ### Register (previusly make a git tag version)
 
 ```
-$ bower register
+$ bower register angular-ys-factory-keyboard https://github.com/yadickson/angular-ys-factory-keyboard.git
 ```
 
-[travis-image]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard.svg?branch=master
+[travis-image]: https://img.shields.io/travis/yadickson/angular-ys-factory-keyboard.svg?label=travis-ci
 [travis-url]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard
