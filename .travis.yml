@@ -5,5 +5,4 @@ node_js:
   - 6
   - 5
   - 4
-after_script:
-- codeclimate-test-reporter < coverage/report-lcov/lcov.info
+after_success: 'npm run coveralls'

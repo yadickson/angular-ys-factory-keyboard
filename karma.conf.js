@@ -16,7 +16,7 @@ module.exports = function(config) {
       'test/**/*.js'
     ],
 
-    reporters: ['progress', 'mocha', 'junit', 'coverage'],
+    reporters: ['progress', 'mocha', 'junit', 'coverage', 'istanbul'],
 
     hostname: 'localhost',
 
@@ -37,8 +37,13 @@ module.exports = function(config) {
       reporters: [{
           type: 'html',
           subdir: '.'
-        },
-        {
+        }
+      ]
+    },
+
+    istanbulReporter: {
+      dir : 'coverage',
+      reporters: [{
           type: 'lcov',
           subdir: '.'
         }

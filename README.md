@@ -3,7 +3,7 @@
 [![TravisCI Status][travis-image]][travis-url]
 [![CircleCI Status][circle-image]][circle-url]
 [![AppVeyor Status][appveyor-image]][appveyor-url]
-[![Test Coverage][codeclimate-image]][codeclimate-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 Angular factory to check keyboard event press button
 
@@ -35,9 +35,8 @@ $ bower install --save-dev angular-mocks@~1.3.20
 $ npm install --save-dev bower
 $ npm install --save-dev karma chai mocha
 $ npm install --save-dev karma-chai karma-bro karma-mocha karma-phantomjs-launcher
-$ npm install --save-dev karma-coverage
+$ npm install --save-dev karma-coverage karma-istanbul
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
-$ npm install --save-dev codeclimate-test-reporter
 ```
 
 ### Prepare application
@@ -67,6 +66,6 @@ $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angula
 [appveyor-image]: https://img.shields.io/appveyor/ci/yadickson/angular-ys-factory-keyboard.svg?label=appveyor
 [appveyor-url]: https://ci.appveyor.com/project/yadickson/angular-ys-factory-keyboard
 
-[codeclimate-image]: https://codeclimate.com/github/yadickson/angular-ys-factory-keyboard/badges/coverage.svg
-[codeclimate-url]: https://codeclimate.com/github/yadickson/angular-ys-factory-keyboard
+[coveralls-image]: https://coveralls.io/repos/yadickson/angular-ys-factory-keyboard/badge.svg
+[coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-factory-keyboard
 
