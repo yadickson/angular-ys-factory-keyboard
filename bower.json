@@ -5,7 +5,7 @@
     "Yadickson Soto <yadickson@gmail.com>"
   ],
   "description": "Angular factory to check keyboard event press button",
-  "main": "src/angular-ys-factory-keyboard.js",
+  "main": "dist/angular-ys-factory-keyboard.js",
   "keywords": [
     "angular",
     "yadickson",

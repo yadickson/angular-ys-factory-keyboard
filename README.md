@@ -37,6 +37,12 @@ $ npm install --save-dev karma-coverage karma-istanbul
 $ npm install --save-dev karma-mocha-reporter karma-junit-reporter
 ```
 
+### Install compiler dependencies
+
+```
+$ npm install --save-dev babel-cli babel-preset-env
+```
+
 ### Prepare application
 
 ```
@@ -47,6 +53,12 @@ $ bower install && npm install
 
 ```
 $ npm test
+```
+
+### Compiler application
+
+```
+$ npm run compiler
 ```
 
 ### Register (previusly make a git tag version)
