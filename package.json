@@ -29,6 +29,7 @@
     "should": "^13.1.2"
   },
   "scripts": {
+    "build": "npm run compile",
     "prepublish": "npm run compile",
     "compile": "./node_modules/.bin/babel --presets env,babili -d dist/ src/",
     "pretest": "./node_modules/.bin/bower install",
