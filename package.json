@@ -2,7 +2,7 @@
   "name": "angular-ys-factory-keyboard",
   "version": "1.0.0",
   "description": "Angular factory to check keyboard event press button",
-  "main": "dist/angular-ys-factory-keyboard.js",
+  "main": "lib/angular-ys-factory-keyboard.js",
   "directories": {
     "test": "test"
   },
@@ -31,7 +31,7 @@
   "scripts": {
     "build": "npm run compile",
     "prepublish": "npm run compile",
-    "compile": "./node_modules/.bin/babel --presets env,babili -d dist/ src/",
+    "compile": "./node_modules/.bin/babel --presets env,babili -d lib/ src/",
     "pretest": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
