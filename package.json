@@ -10,6 +10,7 @@
   "devDependencies": {
     "angular-mocks": "^1.6.6",
     "babel-cli": "^6.26.0",
+    "babel-preset-babili": "^0.1.4",
     "babel-preset-env": "^1.6.1",
     "bower": "^1.8.2",
     "chai": "^4.1.2",
@@ -29,7 +30,7 @@
   },
   "scripts": {
     "prepublish": "npm run compile",
-    "compile": "./node_modules/.bin/babel --presets env -d dist/ src/",
+    "compile": "./node_modules/.bin/babel --presets env,babili -d dist/ src/",
     "pretest": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
