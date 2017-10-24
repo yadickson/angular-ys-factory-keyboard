@@ -7,8 +7,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/mocha/mocha.js',
-      'bower_components/chai/chai.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
@@ -48,22 +46,6 @@ module.exports = function(config) {
           subdir: '.'
         }
       ]
-    },
-
-    mochaReporter: {
-      colors: {
-        success: 'blue',
-        info: 'bgGreen',
-        warning: 'cyan',
-        error: 'bgRed'
-      },
-      symbols: {
-        success: '+',
-        info: '#',
-        warning: '!',
-        error: 'x'
-      },
-      output: 'autowatch'
     },
 
     junitReporter: {
