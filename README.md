@@ -54,7 +54,7 @@ $ bower install && npm install
 ### Compiler application
 
 ```
-$ npm run compiler
+$ npm run compile
 ```
 
 ### Test application
