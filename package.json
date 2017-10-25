@@ -1,6 +1,6 @@
 {
   "name": "angular-ys-factory-keyboard",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Angular factory to check keyboard event press button",
   "main": "lib/angular-ys-factory-keyboard.js",
   "dependencies": {},
@@ -30,10 +30,7 @@
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yadickson/angular-ys-factory-keyboard.git"
-  },
+  "repository": "git+https://github.com/yadickson/angular-ys-factory-keyboard.git",
   "keywords": [
     "angular",
     "yadickson",
