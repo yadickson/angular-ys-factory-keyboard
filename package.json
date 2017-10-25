@@ -25,7 +25,7 @@
   "scripts": {
     "build": "npm run compile",
     "prepublish": "npm run compile",
-    "compile": "./node_modules/.bin/babel --presets env,babili -d lib/ src/",
+    "compile": "./node_modules/.bin/babel --presets env,babili --out-file $npm_package_main src",
     "pretest": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
