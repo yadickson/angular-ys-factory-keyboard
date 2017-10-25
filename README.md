@@ -32,7 +32,7 @@ $ yarn add --dev babel-cli babel-preset-env
 $ yarn add --dev babel-preset-babili
 ```
 
-### add unit test/coverage tools
+### Add unit test/coverage tools
 
 ```
 $ yarn add --dev karma
