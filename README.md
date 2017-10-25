@@ -2,6 +2,7 @@
 
 [![TravisCI Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
+[![GitHub version][github-image]][github-url]
 
 Angular factory to check keyboard event press button
 
@@ -63,9 +64,10 @@ $ npm run compile
 $ npm test
 ```
 
-### Register (previusly make a git tag version)
+### Register
 
 ```
+$ bower login
 $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angular-ys-factory-keyboard.git
 ```
 
@@ -74,4 +76,7 @@ $ bower register angular-ys-factory-keyboard https://github.com/yadickson/angula
 
 [coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-factory-keyboard/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-factory-keyboard
+
+[github-image]: https://badge.fury.io/gh/yadickson%2Fangular-ys-factory-keyboard.svg
+[github-url]: https://badge.fury.io/gh/yadickson%2Fangular-ys-factory-keyboard
 
