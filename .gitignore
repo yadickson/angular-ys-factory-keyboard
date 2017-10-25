@@ -8,3 +8,4 @@ coverage/
 reports/
 package-lock.json
 *.tgz
+*.lock
