@@ -3,19 +3,22 @@
   "version": "1.0.4",
   "description": "Angular factory to check keyboard event press button",
   "main": "lib/angular-ys-factory-keyboard.js",
-  "dependencies": {},
+  "dependencies": {
+    "angular": "1.3.20",
+    "jquery": "1.12.0"
+  },
   "devDependencies": {
+    "angular-mocks": "1.3.20",
     "babel-cli": "^6.26.0",
     "babel-preset-babili": "^0.1.4",
     "babel-preset-env": "^1.6.1",
-    "bower": "^1.8.2",
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "karma": "^1.7.1",
     "karma-bro": "^0.11.1",
     "karma-chai": "^0.1.0",
     "karma-coverage": "^1.1.1",
-    "karma-istanbul": "0.0.2",
+    "karma-istanbul": "^0.0.2",
     "karma-junit-reporter": "^1.2.0",
     "karma-mocha": "^1.3.0",
     "karma-mocha-reporter": "^2.2.5",
@@ -23,10 +26,8 @@
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "build": "npm run compile",
-    "prepublish": "npm run compile",
+    "prepublish": "yarn run compile",
     "compile": "./node_modules/.bin/babel --presets env,babili --out-file $npm_package_main src",
-    "pretest": "./node_modules/.bin/bower install",
     "test": "./node_modules/.bin/karma start --single-run --browser PhantomJS",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },

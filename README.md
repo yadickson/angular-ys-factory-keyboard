@@ -9,66 +9,63 @@ Angular factory to check keyboard event press button
 ### Prepare
 
 ```
-$ bower init
-$ npm init
+$ yarn init
 ```
 
-### Install dependencies
+### Add dependencies
 
 ```
-$ bower install --save jquery@~1.12.0
-$ bower install --save angular@~1.3.20
+$ yarn add jquery@1.12.0 --tilde
+$ yarn add angular@1.3.20 --tilde
 ```
 
-### Install develop dependencies
+### Add develop dependencies
 
 ```
-$ bower install --save-dev angular-mocks@~1.3.20
+$ yarn add --dev angular-mocks@1.3.20 --tilde
 ```
 
-### Install compiler dependencies
+### Add compiler dependencies
 
 ```
-$ npm install --save-dev babel-cli babel-preset-env
-$ npm install --save-dev babel-preset-babili
+$ yarn add --dev babel-cli babel-preset-env
+$ yarn add --dev babel-preset-babili
 ```
 
-### Install unit test/coverage tools
+### add unit test/coverage tools
 
 ```
-$ npm install --save-dev bower
-$ npm install --save-dev karma
-$ npm install --save-dev chai karma-chai
-$ npm install --save-dev mocha karma-mocha
-$ npm install --save-dev karma-bro karma-phantomjs-launcher
-$ npm install --save-dev karma-coverage karma-istanbul
-$ npm install --save-dev karma-mocha-reporter karma-junit-reporter
-$ npm install --save-dev coveralls
+$ yarn add --dev karma
+$ yarn add --dev chai karma-chai
+$ yarn add --dev mocha karma-mocha
+$ yarn add --dev karma-bro karma-phantomjs-launcher
+$ yarn add --dev karma-coverage karma-istanbul
+$ yarn add --dev karma-mocha-reporter karma-junit-reporter
+$ yarn add --dev coveralls
 ```
 
 ### Prepare application
 
 ```
-$ bower install && npm install
+$ yarn install
 ```
 
 ### Compiler application
 
 ```
-$ npm run compile
+$ yarn run compile
 ```
 
 ### Test application
 
 ```
-$ npm test
+$ yarn test
 ```
 
 ### Register
 
 ```
-$ bower login
-$ bower register angular-ys-factory-keyboard https://github.com/yadickson/angular-ys-factory-keyboard.git
+$ yarn publish
 ```
 
 [travis-image]: https://img.shields.io/travis/yadickson/angular-ys-factory-keyboard.svg?label=travisci
