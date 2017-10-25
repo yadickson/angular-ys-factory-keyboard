@@ -28,6 +28,7 @@ $ yarn add --dev angular-mocks@1.3.20 --tilde
 ### Add compiler dependencies
 
 ```
+$ yarn add mkdirp
 $ yarn add --dev babel-cli babel-preset-env
 $ yarn add --dev babel-preset-babili
 ```
