@@ -9,6 +9,7 @@ Angular factory to check keyboard event press button
 
 ```
 $ yarn init
+$ bower init
 ```
 
 ### Add dependencies

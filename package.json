@@ -1,6 +1,6 @@
 {
   "name": "angular-ys-factory-keyboard",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Angular factory to check keyboard event press button",
   "main": "dist/angular-ys-factory-keyboard.js",
   "dependencies": {
