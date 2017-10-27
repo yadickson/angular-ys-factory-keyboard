@@ -1,7 +1,8 @@
-# angular-ys-factory-keyboard [![GitHub version][github-image]][github-url]
+# angular-ys-factory-keyboard
 
-### Travis-CI [![TravisCI Status][travis-image]][travis-url]
-### Coverage [![Coverage Status][coveralls-image]][coveralls-url]
+[![TravisCI Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![npm version][npm-image]][npm-url]
 
 Angular factory to check keyboard event press button
 
@@ -68,11 +69,11 @@ $ yarn test
 $ yarn publish
 ```
 
-[travis-image]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard.png
+[travis-image]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard.svg
 [travis-url]: https://travis-ci.org/yadickson/angular-ys-factory-keyboard
 
-[coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-factory-keyboard/badge.png
+[coveralls-image]: https://coveralls.io/repos/github/yadickson/angular-ys-factory-keyboard/badge.svg
 [coveralls-url]: https://coveralls.io/github/yadickson/angular-ys-factory-keyboard
 
-[github-image]: https://badge.fury.io/gh/yadickson%2Fangular-ys-factory-keyboard.png
-[github-url]: https://badge.fury.io/gh/yadickson%2Fangular-ys-factory-keyboard
+[npm-image]: https://badge.fury.io/js/angular-ys-factory-keyboard.svg
+[npm-url]: https://badge.fury.io/js/angular-ys-factory-keyboard
