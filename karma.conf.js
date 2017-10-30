@@ -1,58 +1,56 @@
 module.exports = function(config) {
-  config.set({
+    config.set({
 
-    basePath: '',
-    // frameworks to use
-    frameworks: ['browserify', 'mocha', 'chai'],
+        basePath: '',
+        // frameworks to use
+        frameworks: ['browserify', 'mocha', 'chai'],
 
-    // list of files / patterns to load in the browser
-    files: [
-      'node_modules/jquery/dist/jquery.js',
-      'node_modules/angular/angular.js',
-      'node_modules/angular-mocks/angular-mocks.js',
-      'src/**/*.js',
-      'test/**/*.js'
-    ],
+        // list of files / patterns to load in the browser
+        files: [
+            'node_modules/jquery/dist/jquery.js',
+            'node_modules/angular/angular.js',
+            'node_modules/angular-mocks/angular-mocks.js',
+            'src/**/*.js',
+            'test/**/*.js'
+        ],
 
-    reporters: ['progress', 'mocha', 'junit', 'coverage', 'istanbul'],
+        reporters: ['progress', 'mocha', 'junit', 'coverage', 'istanbul'],
 
-    hostname: 'localhost',
+        hostname: 'localhost',
 
-    port: 9000,
+        port: 9000,
 
-    colors: true,
+        colors: true,
 
-    autoWatch: true,
+        autoWatch: true,
 
-    browsers: ['PhantomJS'],
+        browsers: ['PhantomJS'],
 
-    preprocessors: {
-      'src/**/*.js': ['coverage']
-    },
+        preprocessors: {
+            'src/**/*.js': ['coverage']
+        },
 
-    coverageReporter: {
-      dir: 'coverage',
-      reporters: [{
-          type: 'html',
-          subdir: '.'
+        coverageReporter: {
+            dir: 'coverage',
+            reporters: [{
+                type: 'html',
+                subdir: '.'
+            }]
+        },
+
+        istanbulReporter: {
+            dir: 'coverage',
+            reporters: [{
+                type: 'lcov',
+                subdir: '.'
+            }]
+        },
+
+        junitReporter: {
+            outputDir: 'reports',
+            outputFile: 'test-results.xml',
+            useBrowserName: false
         }
-      ]
-    },
 
-    istanbulReporter: {
-      dir : 'coverage',
-      reporters: [{
-          type: 'lcov',
-          subdir: '.'
-        }
-      ]
-    },
-
-    junitReporter: {
-      outputDir: 'reports',
-      outputFile: 'test-results.xml',
-      useBrowserName: false
-    }
-
-  });
+    });
 };
