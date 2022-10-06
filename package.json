@@ -4,8 +4,8 @@
     "description": "Angular factory to check keyboard event press button",
     "main": "dist/angular-ys-factory-keyboard.js",
     "dependencies": {
-        "angular": "~1.6.1",
-        "jquery": "~3.2.0"
+        "angular": "~1.8.0",
+        "jquery": "~3.5.0"
     },
     "devDependencies": {
         "angular-mocks": "~1.6.1",
